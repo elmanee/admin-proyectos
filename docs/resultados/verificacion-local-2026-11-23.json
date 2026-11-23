@@ -1,0 +1,45 @@
+{
+  "cliente": {
+    "pruebas": 52,
+    "fallos": 0,
+    "cobertura": {
+      "BRANCH": {
+        "cubiertos": 6,
+        "sin_cubrir": 0
+      },
+      "LINE": {
+        "cubiertos": 271,
+        "sin_cubrir": 0
+      },
+      "METHOD": {
+        "cubiertos": 94,
+        "sin_cubrir": 0
+      }
+    }
+  },
+  "api": {
+    "pruebas": 16,
+    "fallos": 0,
+    "cobertura": {
+      "BRANCH": {
+        "cubiertos": 62,
+        "sin_cubrir": 20
+      },
+      "LINE": {
+        "cubiertos": 304,
+        "sin_cubrir": 0
+      },
+      "METHOD": {
+        "cubiertos": 114,
+        "sin_cubrir": 0
+      }
+    }
+  },
+  "javascript": {
+    "pruebas": 11,
+    "fallos": 0,
+    "lineas_porcentaje": 100,
+    "funciones_porcentaje": 100,
+    "ramas_porcentaje": 96.9
+  }
+}

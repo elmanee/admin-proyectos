@@ -121,4 +121,15 @@ class GestorControllerTest {
         server.expect(requestTo("http://api.test/buscarTareas")).andRespond(withServerError());
         assertThrows(HttpServerErrorException.class,()->controller.consultarTareas());server.verify();
     }
+    @Test void noReenviaCabecerasDeTransporteDelBackend() {
+        server.expect(requestTo("http://api.test/getUsuarioLogin"))
+            .andRespond(withSuccess("{\"id_usuario\":17}", MediaType.APPLICATION_JSON)
+                .header("Transfer-Encoding", "chunked")
+                .header("Connection", "close"));
+        var result = controller.verificarUsuario(new Usuario());
+        assertEquals(17, result.getBody().getId_usuario());
+        assertFalse(result.getHeaders().containsKey("Transfer-Encoding"));
+        assertFalse(result.getHeaders().containsKey("Connection"));
+        server.verify();
+    }
 }

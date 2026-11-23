@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Backend TiDB - Java 21" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.mx.cbtis.gestor.Ejercicio5MyApiGestorApplication" />
+    <module name="Ejercicio5MyAPIGestor" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <envs>
+      <env name="SPRING_PROFILES_ACTIVE" value="tidb" />
+      <env name="PORT" value="8081" />
+    </envs>
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.bromitas.Ejercicio5ClienteApplicationTests" time="7.853" tests="1" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="contextLoads" classname="com.mx.cbtis.bromitas.Ejercicio5ClienteApplicationTests" time="1.836" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.bromitas.GestorControllerTest" time="2.085" tests="25" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="testVerificarTarea" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="1.37" />
+    <testcase name="testGetLogin" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.01" />
+    <testcase name="testGetTarea" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.014" />
+    <testcase name="testUpdateProyecto" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.217" />
+    <testcase name="testCambiosTareas" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.027" />
+    <testcase name="testUpdateTarea" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.022" />
+    <testcase name="testConsultarComentarios" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.058" />
+    <testcase name="testConsultarProyectos" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.022" />
+    <testcase name="testSetSaveTareas" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.045" />
+    <testcase name="testGetHome" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.01" />
+    <testcase name="testConsultarUsuarios" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.029" />
+    <testcase name="testVerificarUsuario" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.022" />
+    <testcase name="testGetProyecto" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.028" />
+    <testcase name="testEliminarTarea" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.027" />
+    <testcase name="testGetRegister" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.008" />
+    <testcase name="testGetInicio" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.008" />
+    <testcase name="testSetSaveUsuario" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.01" />
+    <testcase name="testGetManual" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.006" />
+    <testcase name="testSetSaveProyecto" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.011" />
+    <testcase name="testEliminarProyecto" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.011" />
+    <testcase name="testGetTutorial" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.008" />
+    <testcase name="testConsultarTareas" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.01" />
+    <testcase name="testSetSaveComentario" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.009" />
+    <testcase name="testObtenerComentarios" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.013" />
+    <testcase name="testObtenerTareas" classname="com.mx.cbtis.bromitas.GestorControllerTest" time="0.016" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.GestorControllerTest" time="0.274" tests="20" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="comentarioValidoEInvalido" classname="com.mx.cbtis.GestorControllerTest" time="0.014" />
+    <testcase name="cambiarTarea" classname="com.mx.cbtis.GestorControllerTest" time="0.018" />
+    <testcase name="eliminarProyecto" classname="com.mx.cbtis.GestorControllerTest" time="0.019" />
+    <testcase name="tablero" classname="com.mx.cbtis.GestorControllerTest" time="0.019" />
+    <testcase name="eliminarTarea" classname="com.mx.cbtis.GestorControllerTest" time="0.012" />
+    <testcase name="guardarProyecto" classname="com.mx.cbtis.GestorControllerTest" time="0.014" />
+    <testcase name="errorDeApiNoSeOculta" classname="com.mx.cbtis.GestorControllerTest" time="0.033" />
+    <testcase name="comentariosDeTarea" classname="com.mx.cbtis.GestorControllerTest" time="0.01" />
+    <testcase name="cargarTarea" classname="com.mx.cbtis.GestorControllerTest" time="0.008" />
+    <testcase name="vistasYModelos" classname="com.mx.cbtis.GestorControllerTest" time="0.006" />
+    <testcase name="registroYProyecto" classname="com.mx.cbtis.GestorControllerTest" time="0.008" />
+    <testcase name="consultarTodasTareas" classname="com.mx.cbtis.GestorControllerTest" time="0.007" />
+    <testcase name="login" classname="com.mx.cbtis.GestorControllerTest" time="0.01" />
+    <testcase name="usuarios" classname="com.mx.cbtis.GestorControllerTest" time="0.012" />
+    <testcase name="guardarTarea" classname="com.mx.cbtis.GestorControllerTest" time="0.01" />
+    <testcase name="consultarProyectos" classname="com.mx.cbtis.GestorControllerTest" time="0.01" />
+    <testcase name="tareasDelProyecto" classname="com.mx.cbtis.GestorControllerTest" time="0.012" />
+    <testcase name="crearTarea" classname="com.mx.cbtis.GestorControllerTest" time="0.007" />
+    <testcase name="consultarTodosComentarios" classname="com.mx.cbtis.GestorControllerTest" time="0.007" />
+    <testcase name="cargarProyecto" classname="com.mx.cbtis.GestorControllerTest" time="0.006" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.ModelosContractTest" time="0.102" tests="5" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="contratoProyectos" classname="com.mx.cbtis.ModelosContractTest" time="0.059" />
+    <testcase name="contratoAsignaciones" classname="com.mx.cbtis.ModelosContractTest" time="0.01" />
+    <testcase name="contratoTareas" classname="com.mx.cbtis.ModelosContractTest" time="0.009" />
+    <testcase name="contratoUsuario" classname="com.mx.cbtis.ModelosContractTest" time="0.007" />
+    <testcase name="contratoComentarios" classname="com.mx.cbtis.ModelosContractTest" time="0.006" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.SecurityConfigurationTest" time="0.085" tests="1" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="noSeActivanXsltNiFragmentosSse" classname="com.mx.cbtis.SecurityConfigurationTest" time="0.019" />
+  </testsuite>
+</testsuites>

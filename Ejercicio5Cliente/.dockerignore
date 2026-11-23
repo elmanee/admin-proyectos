@@ -1,0 +1,12 @@
+target
+.git
+.idea
+.secrets
+.env*
+application-local.properties
+node_modules
+coverage
+ci-reports
+tmp
+*.log
+database

@@ -1,0 +1,353 @@
+{
+  "prefijo": "QA_9eb74d286b",
+  "pruebas": [
+    {
+      "prueba": "Pagina /",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /login",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /register",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /inicio",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /tutorial",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /manual",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /proyecto?id_proyecto=224",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Pagina /tarea",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Registro mediante cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Login valido",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Login invalido",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Crear proyecto desde cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Editar proyecto",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Crear tarea pendientes",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Crear tarea encurso",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Crear tarea terminado",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Guardar tarea desde formulario",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Persistir descripcion, fecha, etiqueta y lista",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Filtrar tareas por proyecto",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Guardar comentario desde cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Consultar comentarios de tarea",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "API crear, consultar y editar asignacion",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "API editar comentario",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "API editar usuario",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Catalogo de fondos disponible",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion1.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion10.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion2.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion3.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion4.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion5.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion6.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion7.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion8.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/animacion9.gif",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/azulAqua.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/azulCeleste.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/azulCobalto.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/azulReal.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/azulTurquesa.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado1.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado10.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado11.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado12.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado13.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado14.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado15.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado16.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado17.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado18.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado2.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado3.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado4.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado5.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado6.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado7.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado8.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/degradado9.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/durazno.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/lima.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/magenta.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/morado.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/naranja.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/negro.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/rojoBrillante.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/rosa.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Fondo /Images/turquesaOscuro.png",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Video /Images/manual.mp4",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Video /Images/tutorial.mp4",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Rechazar comentario vacio",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Borrar tarea con dependencias",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar comentarios de tarea borrada",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar asignaciones de tarea borrada",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Borrar proyecto con tareas",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar tareas de proyecto borrado",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar comentarios al borrar proyecto",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "API eliminar asignacion",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "API eliminar comentario",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar tarea desde cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Tarea eliminada en BD",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar tarea desde cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Tarea eliminada en BD",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar tarea desde cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Tarea eliminada en BD",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Eliminar proyecto desde cliente",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "Proyecto eliminado en BD",
+      "resultado": "OK"
+    },
+    {
+      "prueba": "API eliminar usuario de prueba",
+      "resultado": "OK"
+    }
+  ]
+}

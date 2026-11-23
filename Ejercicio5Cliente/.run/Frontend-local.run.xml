@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Frontend local - Java 21" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.mx.cbtis.Ejercicio5ClienteApplication" />
+    <module name="Ejercicio5Cliente" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <envs>
+      <env name="API_URL" value="http://localhost:8081" />
+    </envs>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

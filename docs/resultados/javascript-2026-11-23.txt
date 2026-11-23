@@ -1,0 +1,33 @@
+
+> gestor-cliente-pruebas@1.0.0 test
+> c8 --all --include=src/main/resources/static/js/inicio.js --include=src/main/resources/static/js/proyecto.js --include=src/main/resources/static/js/login.js --include=src/main/resources/static/js/register.js --include=src/main/resources/static/js/pplmproyecto.js --reporter=lcov --reporter=text node --test tests/*.test.cjs
+
+✔ login: valida vacios, correo invalido y credenciales antes de navegar (421.3065ms)
+✔ login: usuario incorrecto no reemplaza la sesion (126.4373ms)
+✔ registro: valida formulario y asigna color de avatar (226.1522ms)
+✔ portada: registro opcional funciona con campos completos e incompletos (124.9185ms)
+✔ portada: no requiere que exista un formulario de registro (463.5738ms)
+✔ inicio: tarjetas, edicion, fondos y borrado usan datos correctos y texto escapado (634.2113ms)
+✔ inicio: comunica fallos de API sin crear tarjetas ficticias (255.804ms)
+✔ tablero: separa listas, carga usuario y escapa comentarios (414.1813ms)
+✔ tablero: controles alternan visibilidad y crean tareas en cada lista (645.8734ms)
+✔ comentarios: rechaza vacios y envia fecha ISO y autor de sesion (133.0634ms)
+✔ tablero: maneja API fallida y sesion ausente (358.6111ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10908.3118
+-----------------|---------|----------|---------|---------|-------------------
+File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------|---------|----------|---------|---------|-------------------
+All files        |     100 |     96.9 |     100 |     100 |                   
+ inicio.js       |     100 |       90 |     100 |     100 | 2,21              
+ login.js        |     100 |      100 |     100 |     100 |                   
+ pplmproyecto.js |     100 |      100 |     100 |     100 |                   
+ proyecto.js     |     100 |       98 |     100 |     100 | 2                 
+ register.js     |     100 |      100 |     100 |     100 |                   
+-----------------|---------|----------|---------|---------|-------------------

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.gestor.ApiIntegrationTest" time="17.939" tests="7" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="cicloCrud(String, String, String, String)[1]" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="2.113" />
+    <testcase name="cicloCrud(String, String, String, String)[2]" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="0.056" />
+    <testcase name="cicloCrud(String, String, String, String)[3]" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="0.065" />
+    <testcase name="cicloCrud(String, String, String, String)[4]" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="0.05" />
+    <testcase name="cicloCrud(String, String, String, String)[5]" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="0.039" />
+    <testcase name="borradoCoherenteYValidaciones" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="0.074" />
+    <testcase name="contrasenasProtegidasYCompatibilidad" classname="com.mx.cbtis.gestor.ApiIntegrationTest" time="0.222" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.gestor.Ejercicio5MyApiGestorApplicationTests" time="0.882" tests="1" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="contextLoads" classname="com.mx.cbtis.gestor.Ejercicio5MyApiGestorApplicationTests" time="0.011" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.gestor.FechasTest" time="0.021" tests="2" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="fechaHoraRespetaFormatoSqlEIso" classname="com.mx.cbtis.gestor.FechasTest" time="0.009" />
+    <testcase name="fechaRespetaContratoYValoresVacios" classname="com.mx.cbtis.gestor.FechasTest" time="0.006" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.gestor.ModelosContractTest" time="0.123" tests="5" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="contratoProyectos" classname="com.mx.cbtis.gestor.ModelosContractTest" time="0.065" />
+    <testcase name="contratoAsignaciones" classname="com.mx.cbtis.gestor.ModelosContractTest" time="0.006" />
+    <testcase name="contratoTareas" classname="com.mx.cbtis.gestor.ModelosContractTest" time="0.014" />
+    <testcase name="contratoUsuario" classname="com.mx.cbtis.gestor.ModelosContractTest" time="0.008" />
+    <testcase name="contratoComentarios" classname="com.mx.cbtis.gestor.ModelosContractTest" time="0.006" />
+  </testsuite>
+  <testsuite xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.mx.cbtis.gestor.SecurityConfigurationTest" time="0.036" tests="1" errors="0" skipped="0" failures="0" flakes="0">
+    <testcase name="noSeActivanXsltNiFragmentosSse" classname="com.mx.cbtis.gestor.SecurityConfigurationTest" time="0.013" />
+  </testsuite>
+</testsuites>
